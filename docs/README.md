@@ -79,7 +79,7 @@ Docker・Codebuild・GitHub・GitHub Actions・PostgreSQL・Terraform
 
 - ローカル環境の整備
 
-  - webpack から esbuild への移行
+  - webpack から esbuild への移行\
     ビルド時間を 2 分から 15 秒まで短縮
 
   - Docker の導入\
