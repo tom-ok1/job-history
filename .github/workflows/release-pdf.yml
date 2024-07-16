@@ -20,10 +20,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 18
-          cache: "pnpm"
-      - run: npm install -g pnpm
-      - run: pnpm install
-      - run: pnpm run build:pdf
+          cache: npm
+      - run: npm install
+      - run: npm run build:pdf
       - name: Create a draft release
         uses: softprops/action-gh-release@v1
         with:
