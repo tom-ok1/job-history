@@ -23,7 +23,7 @@
     "ja-space-around-link": true,
     "ja-space-between-half-and-full-width": false,
     "ja-unnatural-alphabet": true,
-    "max-comma": true,
+    "max-comma": false,
     "max-ten": true,
     "no-double-negative-ja": true,
     "no-doubled-conjunction": true,
@@ -34,8 +34,8 @@
     "no-nfd": true,
     "period-in-list-item": true,
     "prefer-tari-tari": true,
-    "rousseau": true,
-    "sentence-length": true,
+    "rousseau": false,
+    "sentence-length": false,
     "terminology": true,
     "use-si-units": true
   }
