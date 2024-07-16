@@ -77,11 +77,14 @@ Docker・Codebuild・GitHub・GitHub Actions・PostgreSQL・Terraform
   **開発**:実装とテスト\
   **運用**:お客様からの要望や不具合などの問い合わせに対応
 
-- ビルドツールの移行
+- ローカル環境の整備
 
-  - webpack から esbuild への移行
+  - webpack から esbuild への移行\
+    ビルド時間を 2 分から 15 秒まで短縮
 
-  ビルド時間を 2 分から 15 秒まで短縮
+  - Docker の導入\
+    ローカル環境で直接 JVM などで起動していたリソースを Docker で管理する\
+    検証を行い大まかな方針を立ててチームメンバーを 4 人巻き込み導入した
 
 - ライブラリのバージョンアップ
 
@@ -111,6 +114,12 @@ Docker・Codebuild・GitHub・GitHub Actions・PostgreSQL・Terraform
   - 帳票システムの Go 言語でのリプレイス
 
   システムアーキテクチャの見直しやボトルネックとなっているコードのリファクタ・RDB 周りの改善をする
+
+- IaC の terraform 移行
+
+  - serverless framework から terraform への一部移行と CD 環境の整備
+
+  lambda への依存がないインフラリソースの一部を terraform へ移行
 
 ### KDDI 株式会社 (2022/04/01 ~ 2023/08/31)
 
